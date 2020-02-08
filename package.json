@@ -1,6 +1,6 @@
 {
 	"name": "@dependency/handleEventLoop",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"main": "./entrypoint/programmaticAPI",
 	"scripts": {
 		"build": "yarn run scriptManager shouldCompileScript=true @deployment/deploymentScript \".buildSourceCode.moduleProject({}, {compile:[/**'./test'*/]})\"",
